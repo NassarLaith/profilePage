@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="top-Nav">
+        <h1 class="topNav-options-profile">Profile</h1>
+        <ul class="topNav-options">
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+            <button class="btn">Sign Out</button>
+        </ul>
+    </div>
+    <div id="container">
+        <div id="leftCol">
+            <div class="profileBar">
+                <span>
+                    <img src="./icons/user-circle.png" alt="user circle" style="height: 70px; position: relative; top: 33px;">
+                </span>
+                <span>
+                    <h1>Jane Doe</h1>
+                    <h2><img src="./icons/map-marker.png" alt="Map Marker" style="height: 18px;">Seattle</h2>
+                    <h3>Developer | Engineer | Problem Solver
+                    <br>Master of the shadows and the Internet!
+                    </h3>
+                    <img src="./icons/gear.png" alt="gear" style="height: 18px;"><a href="#">Edit Profile</a>
+                </span>
+            </div>
+            <div class="education">
+                <span>
+                    <h1>Education</h1>
+                </span>
+                <span>
+                    <h1>Coding Dojo - Full Stack Bootcamp</h1>
+                    <h2 style="color: grey;">Dec 2019 - Mar 2020</h2>
+                    <h3>Triple Black belt in Python, MERN, and C#</p>
+                </span>
+            </div>
+        </div>
+        <div id="rightCol">
+            <div class="connectionRequest"> 
+                <span class="innerBotLeft">
+                    <span class="requestCirlce" style="margin-right: auto;">2</span>
+                    Connection Requests
+                </span> <!--Right Column,Top box the Header-->
+                <span class="innerBotLeft">
+                    <div>
+                        <img class="imgSize" src="./icons/user-circle.png" alt="user">
+                        <p style="margin-right: auto;">Todd E</p> 
+                        <img class="imgSize" src="./icons/accept-circle.png" alt="check">
+                        <img class="imgSize" src="./icons/close-circle.png" alt="X">
+                    </div>
+                    <div>
+                        <img class="imgSize" src="./icons/user-circle.png" alt="user">
+                        <p style="margin-right: auto;">Phil K</p> 
+                        <img class="imgSize" src="./icons/accept-circle.png" alt="check">
+                        <img class="imgSize" src="./icons/close-circle.png" alt="X">
+                    </div>
+                </span>
+            </div>
+            <div class="yourConnections">
+                <span>
+                    <ul class="yourConnectionsFormat">
+                        <li style="margin-right: auto;background-color: rgb(255, 255, 255);color: black; border-radius: 50%;width: 60px;">500+</li>
+                        <li>Your Connections</li>
+                    </ul>
+                </span>
+                <span style="background-color: rgb(255, 255, 255);"> <!-- Friends/Connections list  -->
+                    <ul class="yourConnectionsList">
+                        <li><img class="imgSize2" src="./icons/user-circle.png" alt="user">Adrien D</li>
+                        <li><img class="imgSize2" src="./icons/user-circle.png" alt="user">Anne J</li>
+                        <li><img class="imgSize2" src="./icons/user-circle.png" alt="user">Alayne T</li>
+                        <li><img class="imgSize2" src="./icons/user-circle.png" alt="user">Arry Y</li>
+                    </ul>
+                </span>
+                <span style="border: 3px grey solid;text-align: center; padding: 15px;font-size: larger;">
+                    <a href="#">View More</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

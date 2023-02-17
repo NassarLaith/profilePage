@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+/* The Top of the Page */
+#top-Nav{
+    background-color: rgb(104, 104, 104);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.topNav-options > li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.topNav-options-profile{
+    list-style: none;
+    display: inline;
+    margin-right: auto;
+}
+.btn{
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: rgb(67, 238, 253);
+    box-shadow: 2px 2px black;
+    padding: 5px;
+}
+
+
+/* The Rest of the Page */
+#container{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 800px;
+    display: flex;
+    padding: 40px 60px;
+}
+
+/* Left side of the page */
+#leftCol{
+    /* width: 500px;
+    height: auto; */
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.profileBar{
+    /* width: auto;
+    height: 100px; */
+    background-color: white;
+    margin: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border: 3px solid grey;
+}
+.profileBar > span:first-of-type{
+    flex: 1;
+    background-color: rgb(18, 224, 207);
+}
+.profileBar > span{
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-top: 30px;
+}
+span > h1,span > h2,span > h3{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.education{
+    /* width: auto;
+    height: 100px; */
+    background-color: white;
+    margin: 10px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+}
+.education > span:first-child{
+    background-color: rgb(104, 104, 104); 
+    flex: 1; 
+    color: white;
+    padding-left: 30px;
+    padding-top: 12px;
+    font-size: 12px;
+    
+}
+.education > span:last-child{
+    background-color: rgb(255, 255, 255); 
+    flex: 4;
+    font-size: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Right side of the page */
+#rightCol{
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.connectionRequest{
+    background-color: white;
+    margin-bottom: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+}
+.connectionRequest > span:first-child{
+    background-color: rgb(104, 104, 104);
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.connectionRequest > span:last-child{ 
+    /*this is for the bottom of the top right Connection requests */
+    background-color: rgb(255, 255, 255);
+    flex: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.innerBotLeft{
+    display: flex;
+    padding: 20px;
+}
+.innerBotLeft > div{
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    font-size: 23px;
+    
+}
+.requestCirlce{
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: black;
+}
+.requestCirlce2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: black;
+}
+.yourConnections{
+    background-color: white;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+}
+.yourConnections > span{
+    flex: 4;
+}
+.yourConnections > span:first-child,.yourConnections > span:last-child{
+    flex: 1;
+}
+
+.yourConnections > span:first-child{
+    background: rgb(104, 104, 104);  
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.yourConnectionsList{
+    list-style: none;
+}
+.yourConnectionsList>li{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.yourConnectionsFormat{
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    padding: 20px 70px;
+    margin-bottom:20px;
+}
+.imgSize{
+    height: 25px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.imgSize2{
+    height: 25px;
+    position: relative;
+    margin-right: 15px;
+    top: 5px;
+}
